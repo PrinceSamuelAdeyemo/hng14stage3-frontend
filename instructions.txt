@@ -1,0 +1,78 @@
+Implement a Habit Tracker PWA From a Technical Requirements Document
+
+Overview:
+Welcome to Stage 3.
+In this stage, you are given a Technical Requirements Document for a Habit Tracker Progressive Web App.
+
+Your task is to:
+
+read and interpret the technical document carefully
+translate that document into a working application
+follow the required structure, naming, and behavior contracts
+write automated tests that verify your implementation against the document
+This is a technical execution task. It is designed to assess how well you can follow engineering instructions, implement deterministically, and validate your work with tests.
+
+
+
+Materials:
+Technical Requirements Document.
+You are expected to build strictly from the requirements, not from any assumptions. This document includes:
+
+required routes
+required folder and file structure
+required naming conventions
+required exported utilities
+required local persistence behavior
+required UI selectors and test IDs
+required PWA files
+required scripts
+required minimum tests
+required exact test titles
+
+
+
+
+Acceptance Criteria:
+This stage evaluates your ability to:
+
+read and implement a technical specification accurately
+follow a defined engineering structure
+respect naming and behavioral contracts
+write testable code
+write unit, integration, and end-to-end tests
+
+
+Note:
+
+some requirements will be checked through your own test suite
+some requirements will be checked through mentor-written tests - a feature that is not covered by your own tests may still be reviewed by mentors.
+some requirements may be checked through direct code or file inspection
+your required tests must use the exact titles defined in the technical document
+use the required test tools only
+create the required test files
+use the exact required describe block names
+use the exact required test titles
+make sure the test titles appear clearly in console output
+make sure the body of each test actually verifies the behavior claimed in the title
+
+
+
+
+Required Deliverables:
+You must submit:
+
+a live deployed URL
+a GitHub repository
+a README
+your automated tests
+your coverage report
+a demo video, not more than 2mins, showcasing the app you built. You can screenrecord and upload somewhere, you can use loom or alternatives.
+
+
+Your README should clearly explain:
+
+how to run the app
+how to run the tests
+any assumptions or trade-offs
+how your implementation maps to the technical requirements document
+where each required test file is located and what it verifies
