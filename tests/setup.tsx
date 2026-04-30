@@ -2,11 +2,13 @@ import '@testing-library/jest-dom/vitest';
 import type { ReactNode } from 'react';
 import { vi } from 'vitest';
 
+const routerMock = {
+  push: vi.fn(),
+  replace: vi.fn()
+};
+
 vi.mock('next/navigation', () => ({
-  useRouter: () => ({
-    push: vi.fn(),
-    replace: vi.fn()
-  })
+  useRouter: () => routerMock
 }));
 
 vi.mock('next/link', () => ({

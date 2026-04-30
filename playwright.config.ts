@@ -1,4 +1,10 @@
 import { defineConfig, devices } from '@playwright/test';
+import { existsSync } from 'node:fs';
+
+const localChromePath = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
+const localChrome = existsSync(localChromePath)
+  ? { launchOptions: { executablePath: localChromePath } }
+  : {};
 
 export default defineConfig({
   testDir: './tests/e2e',
@@ -16,7 +22,7 @@ export default defineConfig({
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] }
+      use: { ...devices['Desktop Chrome'], ...localChrome }
     }
   ]
 });
